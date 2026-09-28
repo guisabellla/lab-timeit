@@ -174,8 +174,8 @@ Complete the table by modifying the `N` and `CONTAINER` variables in the shell c
 | ---------------------- | ---------------- | --------------------- |
 | `N=16`                 |  128 msec        |  2.46 msec            |
 | `N=17`                 |  541 msec        |  4.92 msec            |
-| `N=18`                 |  3.91 msec       |  9.85 msec            |
-| `N=19`                 |  19.3 msec       |  19.8 msec            |
+| `N=18`                 |  3.91 sec       |  9.85 msec            |
+| `N=19`                 |  19.3 sec       |  19.8 msec            |
 
 You should observe that the quadratic algorithm/container combination gets *really* slow *really* fast.
 The takeaway: **$O(n^2)$ is bad**.
